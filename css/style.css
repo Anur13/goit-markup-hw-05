@@ -598,7 +598,7 @@ address {
   background-color: #fff;
 }
 
-.nav-current::after {
+.nav-current-link::after {
   position: absolute;
   bottom: 0;
   display: block;
