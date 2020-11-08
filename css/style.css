@@ -555,7 +555,7 @@ address {
 }
 
 .backdrop.is-hidden {
-  opacity: 1;
+  opacity: 0;
   pointer-events: none;
 }
 .modal {
@@ -573,9 +573,12 @@ address {
 
 .modal {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .modal-close-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 30px;
   height: 30px;
   margin-top: 8px;

@@ -76,21 +76,20 @@
           <ul class="product-images">
             <li class="product-image__container">
               <div class="index-product-overlay__container">
-              <p class="index-product-overlay">десктопные приложения</p>
+                <p class="index-product-overlay">десктопные приложения</p>
               </div>
               <img src="./images/images_homework1/img.jpg" width="370" alt="Человек работает за компьютером" />
             </li>
             <li class="product-image__container">
               <div class="index-product-overlay__container">
-              <p class="index-product-overlay">мобильные приложения</p>
-            </div>
+                <p class="index-product-overlay">мобильные приложения</p>
+              </div>
               <img src="./images/images_homework1/img(1).jpg" width="370" alt="Человек работает с телефона " />
             </li>
 
             <li class="product-image__container">
               <div class="index-product-overlay__container">
-              <p class="index-product-overlay">дизайнерские решения</p>
-
+                <p class="index-product-overlay">дизайнерские решения</p>
               </div>
               <img src="./images/images_homework1/img(2).jpg" width="370" alt="Человек работает с планшета" />
             </li>
@@ -310,26 +309,12 @@
         <div class="modal">
           <button type="button" class="modal-close-button" [data-modal-close]>
             <svg width="18px" height="18px">
-              <use href="./images/images-homework-5/close-black-18dp (2) 1.svg"></use>
+              <use href="./images/icons-homework4/symbol-defs.svg#close-black"></use>
             </svg>
           </button>
         </div>
       </div>
-      <script>
-  const refs = {
-    openModalBtn: document.querySelector('[data-modal-open]'),
-    closeModalBtn: document.querySelector('[data-modal-close]'),
-    modal: document.querySelector('[data-modal]'),
-  };
-
-  refs.openModalBtn.addEventListener('click', toggleModal);
-  refs.closeModalBtn.addEventListener('click', toggleModal);
-
-  function toggleModal() {
-    refs.modal.classList.toggle('is-hidden');
-  }
-
-      </script>
+      <script src="./js/modal.js"></script>
     </main>
 
     <footer class="footer">
