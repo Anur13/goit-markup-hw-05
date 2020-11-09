@@ -456,8 +456,9 @@ address {
 }
 .header__icon {
   position: absolute;
-  bottom: 1px;
+  bottom: 2px;
   left: -30px;
+  fill: currentColor;
 }
 
 .header-contacts:hover .header__icon,
