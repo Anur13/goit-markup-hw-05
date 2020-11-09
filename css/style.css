@@ -141,7 +141,7 @@ a:active {
 }
 .container-hero {
   margin-bottom: 0;
-  max-width: 696px;
+  max-width: 680px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 200px;
@@ -316,6 +316,7 @@ address {
 .header-contacts {
   display: flex;
   justify-content: end;
+  position: relative;
 }
 
 .nav {
@@ -456,7 +457,9 @@ address {
   margin-top: 20px;
 }
 .header__icon {
-  margin-right: 10px;
+  position: absolute;
+  bottom: 1px;
+  left: -30px;
 }
 
 .header-contacts:hover .header__icon,
