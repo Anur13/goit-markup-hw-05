@@ -275,7 +275,7 @@ address {
   position: relative;
 }
 .product-card:hover,
-.product-card:hover {
+.product-card:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
@@ -554,7 +554,8 @@ address {
   color: var(--background-colour);
 }
 
-.product-card:hover .portfolio--product-overlay__container {
+.product-card:hover .portfolio--product-overlay__container,
+.product-card:focus .portfolio--product-overlay__container {
   opacity: 1;
   height: 294px;
 }
