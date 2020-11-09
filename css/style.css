@@ -472,6 +472,7 @@ address {
 
 .clients-icon__list {
   display: inline-flex;
+  fill: #afb1b8;
 }
 
 .clients-item:not(:last-child) {
@@ -482,7 +483,6 @@ address {
   display: flex;
   justify-content: center;
   align-items: center;
-
   height: 90px;
   width: 170px;
   border: 1px solid #afb1b8;
